@@ -1,3 +1,5 @@
+#PI-M7M-Miner
+
 This is a multi-threaded CPU pool miner for M7M/Magi (XMG).
 
 This miner is an optimizing of code released by Wolf0 mainly by revising <m7mhash.c>
@@ -16,6 +18,7 @@ Dependencies:
 	(jansson is optional, and is included in-tree)
 
 Basic *nix build instructions:
+	sudo apt-get install gcc-4.8 && sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.6 60 && sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 80 && gcc -mcpu=native -march=native -Q --help=target && 
 	./autogen.sh && ./configure CFLAGS="-O3" CXXFLAGS="-O3" && make
 	./autogen.sh		# only needed if building from git repo
 	./nomacro.pl		# only needed if building on Mac OS X or with Clang
