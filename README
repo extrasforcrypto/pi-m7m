@@ -2,7 +2,7 @@
 
 This is a multi-threaded CPU pool miner for M7M/Magi (XMG).
 
-This miner is an optimizing of code released by Wolf0 mainly by revising <m7mhash.c>
+This miner is an optimizing of code released by Wolf0 mainly by revising <m7mhash.c> and modified to run on Raspberry Pi
 https://github.com/wolf9466/wolf-m7m-cpuminer
 
 License: GPLv2.  See COPYING for details.
